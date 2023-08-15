@@ -1,2 +1,2 @@
 # ESTRUTURAS-DE-DADOS_JOAO
-Repositório para aula do professor do João Pedro Macleure (Estrutura de Dados)
+Repositório para à aula do professor João Pedro Macleure (Estrutura de Dados)
