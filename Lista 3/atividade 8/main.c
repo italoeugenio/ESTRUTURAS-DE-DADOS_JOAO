@@ -19,11 +19,6 @@ int main(int argc, char* argv[]){
     lista_concatenar(n0, n_copia);
     printf("\n");
     lista_imprimir(n0);
-    lista_liberar(n0);
-    n0 = NULL;
-    lista_imprimir(n0);
-
-    //Chamadas novas
     printf("\nVerificar existencia: %d", lista_verificar_existencia(n0, 'A'));
     printf("\nVerificar ocorrencias: %d", lista_verificar_ocorrencias(n0, 'A'));
     printf("\nImprimir inversa: ");
@@ -40,6 +35,9 @@ int main(int argc, char* argv[]){
     lista_remover_no(n0, 'A');
     printf("\n");
     lista_imprimir(n0);
+    lista_liberar(n0);
+    n0 = NULL;
+    // lista_imprimir(n0); // Remova esta linha
 
     exit(0);
 }

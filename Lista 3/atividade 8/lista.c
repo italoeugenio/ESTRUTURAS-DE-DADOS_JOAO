@@ -108,9 +108,9 @@ void lista_remover_no(No* L, char valor_busca) {
             No* no_remover = L->proximo_no;
             L->proximo_no = L->proximo_no->proximo_no;
             free(no_remover);
-            lista_remover_no(L, valor_busca);
         } else {
             lista_remover_no(L->proximo_no, valor_busca);
         }
     }
 }
+
