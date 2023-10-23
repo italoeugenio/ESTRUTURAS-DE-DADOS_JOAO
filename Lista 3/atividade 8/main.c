@@ -37,7 +37,7 @@ int main(int argc, char* argv[]){
     lista_imprimir(n0);
     lista_liberar(n0);
     n0 = NULL;
-    // lista_imprimir(n0); // Remova esta linha
+    
 
     exit(0);
 }
