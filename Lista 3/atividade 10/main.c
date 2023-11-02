@@ -26,7 +26,7 @@ int main()
     // Verificando se o aluno foi removido
     printf("Mirelle esta na tabela? %d\n\n", hash_table_contains("Mirelle"));
 
-    //Usando a função hash para calcular o índice do array 
+    // Usando a função hash para calcular o índice do array 
     printf("------------------CALCULANDO INDICE------------------\n");
     int hash1 = hash("Italo"); 
     hash_table_put("Italo", "UC22102126"); 
