@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "bubble_sort.h"
 
 void bubble_sort(int *arr, int size){
